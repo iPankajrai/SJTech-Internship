@@ -11,7 +11,7 @@
                                                
                                                | | | | | | | |
                                                | | | | | | | |  : First four for Rows and last four pins for columns
-                            Arduino Pins -->   9 8 7 6 5 4 3 2  : CONNECTION TO ARDUINO PINS or TO EQUIVALENT ATMEGA328P PINS
+                            Arduino Pins -->   9 8 7 6 5 4 3 2  : CONNECTION TO ARDUINO PINS or TO EQUIVALENT ATMEGA328P PINSin case of STANDALONE 
                                                      
     
     --> '#' works as a equal Button
