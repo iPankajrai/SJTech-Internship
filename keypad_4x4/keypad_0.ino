@@ -1,5 +1,13 @@
 /*
- * Arduino Keypad calculator Program
+  ****************4x4 KEYPAD in Arduino******************
+    
+    --> '#' works as a equal Button
+    
+    --> Takes input as a multiple digit Number or single character Alphabet    
+    --> returns:
+            one or more digit Number and  an Alphabet (only one will come at a time and other will be coming as null or Zero)
+    
+    
  */
 
 #include <Keypad.h> //Header file for Keypad from https://github.com/Chris--A/Keypad
