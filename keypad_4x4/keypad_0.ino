@@ -56,6 +56,7 @@ Keypad kpd = Keypad( makeKeymap(keys), rowPins, colPins, ROWS, COLS ); //  Creat
 void setup()
 { 
   Serial.begin(9600); 
+  //We do not need to define the input and output for the pins because it's already there in keypad library
 }
 
 
