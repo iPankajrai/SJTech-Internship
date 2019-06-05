@@ -8,6 +8,10 @@
                                                '7','8','9','C'
 
                                                '*','0','#','D'
+                                               
+                                               | | | | | | | |
+                                               | | | | | | | |  : First four for Rows and last four pins for columns
+                            Arduino Pins -->   9 8 7 6 5 4 3 2  : CONNECTION TO ARDUINO PINS or TO EQUIVALENT ATMEGA328P PINS
                                                      
     
     --> '#' works as a equal Button
@@ -40,7 +44,7 @@ char keys[ROWS][COLS] =
 };
 
 byte rowPins[ROWS] = { 9, 8, 7, 6 };// Connect keypad ROW0, ROW1, ROW2 and ROW3 to these Arduino pins.
-byte colPins[COLS] = { 5, 4, 2, 3 }; // Connect keypad COL0, COL1,COL2 and COL3 to these Arduino pins.
+byte colPins[COLS] = { 5, 4, 3, 2 }; // Connect keypad COL0, COL1,COL2 and COL3 to these Arduino pins.
 
 Keypad kpd = Keypad( makeKeymap(keys), rowPins, colPins, ROWS, COLS ); //  Create the Keypad
 
