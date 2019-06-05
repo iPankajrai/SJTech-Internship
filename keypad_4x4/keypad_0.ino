@@ -50,10 +50,8 @@ Keypad kpd = Keypad( makeKeymap(keys), rowPins, colPins, ROWS, COLS ); //  Creat
  boolean result = false;
  
 void setup()
-{
-  pinMode(A0,INPUT);
-  Serial.begin(9600);
-  //delay(100);
+{ 
+  Serial.begin(9600); 
 }
 
 
