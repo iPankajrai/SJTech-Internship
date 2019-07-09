@@ -1,11 +1,11 @@
 /*
-  ***************** WATER DETECTION IN HAND PUMP *******************
+  ***************** TEMPERATURE AND HUMIDITY MONITORING IN A VAN *******************
   Description:
-               This project aims to detect the water inside the Hand Pump By analog reading from the sensor
-               and then the Sensor Reading is sent to the Server(https://colonymaintenance.com/77/IOT/Project1/api.php?action=view)
+               This project aims to MONITOR  the temperature and humidity inside the VAN By reading from the sensor
+               and then the Sensor Reading is sent to the Server(https://colonymaintenance.com/77/IOT/romm_temperature/api.php?action=view)
                by using GSM SIM900A module.
   Prerequisites:
-               1.  Rain Sensor(YL-83 or FC-37)  - 1 (Quantity)
+               1.  DHT11                        - 1 (Quantity)
                2.  ATmega328p microcontroller   - 1
                3.  GSM Module (SIM900A)         - 1
                4.  LM7805 voltage regulator     - 1
@@ -19,7 +19,7 @@
               Sensor           Atmega328p 
                 vcc    ---->      vcc
                 GND    ---->      GND
-                A0     ---->      ADC0 (23rd Pin)
+                DATA     ---->      ADC0 (23rd Pin)
               SIM900A          Atmega328p 
                 GND    ---->      GND
                 TXD    ---->      14
